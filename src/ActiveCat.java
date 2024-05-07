@@ -1,6 +1,5 @@
 import java.util.List;
-import java.util.Random;
-public final class ActiveCat {
+import java.util.Random;public final class ActiveCat {
     private static final Random r = new Random();
     private static final List<String> names = List.of("Peach", "Ginger", "Toby", "Seth", "Tibbles", "Tabby", "Poppy",
             "Millie", "Daisy", "Jasper", "Misty", "Minka");
@@ -21,7 +20,6 @@ public final class ActiveCat {
     public void doAction() {
         System.out.printf("Я %s. %s%n", name, action.perform());
     }
-
 
     public static String jump() {
         return "Я прыгаю!";
